@@ -19,7 +19,7 @@ const DashboardLayout = () => {
           isOpen ? "translate-x-0" : "-translate-x-full"
         } md:hidden`}
       >
-        <DashboardSidebar />
+        <DashboardSidebar setIsOpen={setIsOpen} />
       </div>
 
       {/* Overlay when drawer is open */}

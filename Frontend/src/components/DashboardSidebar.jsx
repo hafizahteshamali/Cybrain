@@ -2,7 +2,7 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 import { DashboardNavigation } from "../assets/ConstantData";
 
-const DashboardSidebar = () => {
+const DashboardSidebar = ({setIsOpen}) => {
   return (
     <div className="w-[100%] h-full bg-[#444B58] text-white flex flex-col justify-start pt-[50px]">
       {/* Logo Section */}
@@ -21,6 +21,7 @@ const DashboardSidebar = () => {
       <nav className="flex flex-col p-4 space-y-3 mt-[50px]">
         {DashboardNavigation.map((item, index) => (
           <NavLink
+          onClick={()=>setIsOpen(false)}
             key={index}
             to={item.path}
             end={item.end || false} // 👈 index route ke liye zaroori
