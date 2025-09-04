@@ -31,7 +31,7 @@ const DashboardSidebar = ({setIsOpen}) => {
               }`
             }
           >
-            <img src={item.icon} className="h-4 w-4" alt="" />
+            <img src={item.icon} className="h-6 w-6" alt="" />
             {item.title}
           </NavLink>
         ))}

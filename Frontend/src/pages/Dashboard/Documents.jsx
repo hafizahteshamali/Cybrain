@@ -67,14 +67,14 @@ const Documents = () => {
     <div className="w-full lg:h-screen lg:overflow-hidden flex flex-col p-4 sm:p-6">
       {/* Header */}
       <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-3 mb-4">
-        <h1 className="text-2xl sm:text-3xl font-bold">Unterlagen</h1>
+        <h1 className="text-2xl sm:text-4xl font-bold">Unterlagen</h1>
         <button className="px-4 py-2 bg-blue-600 text-white rounded shadow hover:bg-blue-700 transition">
           Vertrag hochladen
         </button>
       </div>
 
       {/* Search */}
-      <div className="relative w-full mb-4">
+      <div className="relative w-full mb-6">
         <input
           type="text"
           placeholder="Suchen"
@@ -90,10 +90,10 @@ const Documents = () => {
           <table className="w-full text-left text-sm sm:text-base">
             <thead className="bg-[#D4D4D4]">
               <tr>
-                <th className="px-4 py-3 font-[400]">Vertrag</th>
-                <th className="px-4 py-3 font-[400]">Hochgeladen</th>
-                <th className="px-4 py-3 font-[400]">Datum</th>
-                <th className="px-4 py-3 font-[400]">Größe</th>
+                <th className="px-4 py-4 font-[400]">Vertrag</th>
+                <th className="px-4 py-4 font-[400]">Hochgeladen</th>
+                <th className="px-4 py-4 font-[400]">Datum</th>
+                <th className="px-4 py-4 font-[400]">Größe</th>
               </tr>
             </thead>
             <tbody>
@@ -102,26 +102,26 @@ const Documents = () => {
                   key={index}
                   className="border-b border-gray-300 hover:bg-gray-50 text-xs sm:text-sm"
                 >
-                  <td className="px-2 sm:px-4 py-2.5">
+                  <td className="px-2 sm:px-4 py-4">
                     <span className="sm:hidden">
                       {doc.name.length > 10 ? doc.name.slice(0, 10) + "..." : doc.name}
                     </span>
                     <span className="hidden sm:inline">{doc.name}</span>
                   </td>
 
-                  <td className="px-2 sm:px-4 py-2.5">
+                  <td className="px-2 sm:px-4 py-4">
                     <span className="sm:hidden">
                       {doc.uploader.length > 6 ? doc.uploader.slice(0, 6) + "..." : doc.uploader}
                     </span>
                     <span className="hidden sm:inline">{doc.uploader}</span>
                   </td>
 
-                  <td className="px-2 sm:px-4 py-2.5">
+                  <td className="px-2 sm:px-4 py-4">
                     <span className="sm:hidden">{doc.date.slice(2, 7)}</span>
                     <span className="hidden sm:inline">{doc.date}</span>
                   </td>
 
-                  <td className="px-2 sm:px-4 py-2.5">
+                  <td className="px-2 sm:px-4 py-4">
                     {doc.size}
                   </td>
                 </tr>
@@ -132,15 +132,15 @@ const Documents = () => {
         </div>
 
         {/* Sidebar Section */}
-        <div className="w-full lg:w-1/4 flex flex-col gap-2">
+        <div className="w-full lg:w-1/4 flex flex-col gap-5">
           {/* AI Score */}
-          <div className="bg-[var(--bg-color)] rounded shadow p-3 flex flex-col items-center">
+          <div className="bg-[var(--bg-color)] rounded shadow px-3 py-5 flex flex-col items-center">
             <h2 className="font-semibold mb-1.5">AI-Score</h2>
             <HalfCircleProgress value={100} />
           </div>
 
           {/* AI-Klausel-Risiko */}
-          <div className="bg-[var(--bg-color)] rounded shadow p-3 flex flex-col items-center">
+          <div className="bg-[var(--bg-color)] rounded shadow px-3 py-5 flex flex-col items-center">
             <h2 className="font-semibold mb-2">AI-Klausel-Risiko</h2>
             <div className="flex items-center gap-2">
               <span className="text-blue-600 font-medium">Aktiv</span>
@@ -149,7 +149,7 @@ const Documents = () => {
           </div>
 
           {/* Vertrauenwert */}
-          <div className="bg-[var(--bg-color)] rounded shadow p-3">
+          <div className="bg-[var(--bg-color)] rounded shadow px-3 py-5">
             <h2 className="font-semibold mb-2">Vertrauenswert</h2>
             <div className="flex items-center gap-2">
               <span>80%</span>
@@ -165,7 +165,7 @@ const Documents = () => {
           </div>
 
           {/* Dringend */}
-          <div className="bg-[var(--bg-color)] px-2 py-1 rounded shadow">
+          <div className="bg-[var(--bg-color)] px-3 py-7 rounded shadow">
             <h2 className="font-bold mb-1">Dringend</h2>
             <ul className="space-y-0.5">
               {Dringend.map((item, index) => {

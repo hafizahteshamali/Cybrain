@@ -71,7 +71,7 @@ const Contract_Center = () => {
         <input
           type="text"
           placeholder="Suchen"
-          className="pl-10 pr-4 w-full py-2 border border-gray-300 rounded focus:outline-none bg-white text-sm sm:text-base"
+          className="pl-10 pr-4 w-full py-2 border border-gray-300 rounded focus:outline-none bg-[var(--bg-color)] text-sm sm:text-base"
         />
         <FaSearch className="absolute left-3 top-3 text-gray-400" />
       </div>
