@@ -105,8 +105,6 @@ const LegalNotice = () => {
     </div>
   ))}
 </div>
-
-
     </div>
   );
 };
