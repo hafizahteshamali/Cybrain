@@ -172,7 +172,7 @@ const Communication = () => {
               <div className="flex flex-wrap sm:flex-nowrap gap-3 mt-4">
                 <button className="flex items-center justify-center flex-1 sm:flex-none h-[45px] gap-2 px-3 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 text-sm sm:text-base">
                   <img
-                    src="/anwalt/assets/images/dashboard/proicons_chat.svg"
+                    src="/assets/images/dashboard/proicons_chat.svg"
                     alt=""
                     className="h-5 w-5 sm:h-6 sm:w-6"
                   />
@@ -194,7 +194,7 @@ const Communication = () => {
                   Vertragsdetails
                 </h4>
                 <div className="flex items-start sm:items-center gap-2 text-gray-700">
-                  <img src="/anwalt/assets/images/dashboard/bx_file.svg" alt="" />
+                  <img src="/assets/images/dashboard/bx_file.svg" alt="" />
                   <div className="flex flex-col">
                     <span className="text-[var(--black-color)] text-sm sm:text-base break-words">
                       {activeMessage.details.file}
@@ -213,7 +213,7 @@ const Communication = () => {
                 </h4>
                 <div className="flex items-start sm:items-center gap-2 text-gray-700">
                   <img
-                    src="/anwalt/assets/images/dashboard/hugeicons_task-edit-01.svg"
+                    src="/assets/images/dashboard/hugeicons_task-edit-01.svg"
                     alt=""
                   />
                   <div className="flex flex-col">
