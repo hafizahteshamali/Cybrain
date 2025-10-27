@@ -23,6 +23,7 @@ const AppRoutes = () => {
         <Route path="kommunikation" element={<Communication />} />
         <Route path="rechtliche-hinweise" element={<Legal_Notice />} />
       </Route>
+        <Route path="/dashboard/deadline" element={<Legal_Notice />} />
     </Routes>
   );
 };
