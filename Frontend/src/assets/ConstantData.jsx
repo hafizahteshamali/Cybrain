@@ -11,33 +11,33 @@ export const DashboardNavigation = [
   {
     title: "Vertragszentrum",
     path: "/dashboard",
-    icon: "/assets/images/dashboard/mdi_contract-outline.svg",
+    icon: "/anwalt/assets/images/dashboard/mdi_contract-outline.svg",
     end: true, // index route ke liye zaroori
   },
   {
     title: "Angelegenheiten",
     path: "/dashboard/angelegenheiten",
-    icon: "/assets/images/dashboard/formkit_file.svg",
+    icon: "/anwalt/assets/images/dashboard/formkit_file.svg",
   },
   {
     title: "Unterlagen",
     path: "/dashboard/unterlagen",
-    icon: "/assets/images/dashboard/pajamas_documents.svg",
+    icon: "/anwalt/assets/images/dashboard/pajamas_documents.svg",
   },
   {
     title: "Fristen",
     path: "/dashboard/fristen",
-    icon: "/assets/images/dashboard/mdi_clock-outline.svg",
+    icon: "/anwalt/assets/images/dashboard/mdi_clock-outline.svg",
   },
   {
     title: "Kommunikation",
     path: "/dashboard/kommunikation",
-    icon: "/assets/images/dashboard/icon-park-outline_communication.svg",
+    icon: "/anwalt/assets/images/dashboard/icon-park-outline_communication.svg",
   },
   {
     title: "Rechtliche Hinweise",
     path: "/dashboard/rechtliche-hinweise",
-    icon: "/assets/images/dashboard/fa_legal.svg",
+    icon: "/anwalt/assets/images/dashboard/fa_legal.svg",
   },
 ];
 
@@ -54,17 +54,17 @@ export const ContractCenterData1 = [
 
 export const ContractScheduleData = [
   {
-    icon: "/assets/images/dashboard/clarity_contract-line.svg",
+    icon: "/anwalt/assets/images/dashboard/clarity_contract-line.svg",
     boldText: "Vertrag erstellt",
     subtitle: "Vor 2 Stunden",
   },
   {
-    icon: "/assets/images/dashboard/mingcute_ai-line.svg",
+    icon: "/anwalt/assets/images/dashboard/mingcute_ai-line.svg",
     boldText: "Von Al markierte Klausel",
     subtitle: "Vor 1 Tag",
   },
   {
-    icon: "/assets/images/dashboard/mdi_tick.svg",
+    icon: "/anwalt/assets/images/dashboard/mdi_tick.svg",
     boldText: "Überprüfung abgeschlossen",
     subtitle: "Vor 5 Tagen",
   },
@@ -119,15 +119,15 @@ export const risks = [
 
 export const NoticeData = [
   {
-    icon: "/assets/images/dashboard/Ellipse-9.svg",
+    icon: "/anwalt/assets/images/dashboard/Ellipse-9.svg",
     text: "Österreichisches Bürgerliches Gesetzbuch"
   },
   {
-    icon: "/assets/images/dashboard/Ellipse-9.svg",
+    icon: "/anwalt/assets/images/dashboard/Ellipse-9.svg",
     text: "OGH-Entscheidungen"
   },
   {
-    icon: "/assets/images/dashboard/Ellipse-9.svg",
+    icon: "/anwalt/assets/images/dashboard/Ellipse-9.svg",
     text: "Datenschutzhinweis"
   },
 ]
@@ -143,19 +143,19 @@ export const event = { label: "Fall A Fällig 01.09.2025", position: "left" };
 
 export const Dringend = [
   {
-    iconImg: "/assets/images/dashboard/Ellipse-9.svg",
+    iconImg: "/anwalt/assets/images/dashboard/Ellipse-9.svg",
     head: "Vertrag 104kicue siche",
     text: "01.09.2025",
     textColor: "text-black"
   },
   {
-    iconImg: "/assets/images/dashboard/Ellipse-9.svg",
+    iconImg: "/anwalt/assets/images/dashboard/Ellipse-9.svg",
     head: "Vertrag 104623",
     text: "01.09.2025",
     textColor: "text-[#EF4444]"
   },
   {
-    iconImg: "/assets/images/dashboard/Ellipse-9.svg",
+    iconImg: "/anwalt/assets/images/dashboard/Ellipse-9.svg",
     head: "Vertrag 104kicue siche",
     text: "01.09.2025",
     textColor: "text-[#EF4444]"

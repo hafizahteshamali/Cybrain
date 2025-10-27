@@ -11,7 +11,7 @@ const DashboardSidebar = ({setIsOpen}) => {
         className=" border-gray-700  w-[100%] flex justify-start lg:justify-center items-start"
       >
         <img
-          src="/assets/images/dashboard/logo.svg"
+          src="/anwalt/assets/images/dashboard/logo.svg"
           alt="Dashboard Logo"
           className=""
         />
