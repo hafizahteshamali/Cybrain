@@ -7,6 +7,7 @@ import Documents from "../pages/Dashboard/Documents";
 import Deadlines from "../pages/Dashboard/Deadlines";
 import Communication from "../pages/Dashboard/Communication";
 import Legal_Notice from "../pages/Dashboard/Legal_Notice";
+import Deadline2 from "../pages/Dashboard/Deadline2.jsx";
 
 const AppRoutes = () => {
   return (
@@ -23,7 +24,7 @@ const AppRoutes = () => {
         <Route path="kommunikation" element={<Communication />} />
         <Route path="rechtliche-hinweise" element={<Legal_Notice />} />
       </Route>
-        <Route path="/dashboard/deadline" element={<Legal_Notice />} />
+        <Route path="/dashboard/deadline" element={<Deadline2 />} />
     </Routes>
   );
 };

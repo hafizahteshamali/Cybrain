@@ -9,6 +9,9 @@
 html, body{
     scroll-behavior: smooth;
 }
+body{
+    background-color: #dcdcdc;
+}
 
 a{
     text-decoration: none;
