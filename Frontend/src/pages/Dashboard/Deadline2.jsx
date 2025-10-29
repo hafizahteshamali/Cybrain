@@ -22,7 +22,7 @@ const Deadline2 = () => {
       print: ["/assets/images/dashboard/gridicons_cross-circle.svg", "/assets/images/dashboard/lets-icons_print-light.svg"],
       status: "critical",
       ra: "M: +1",
-      outlook: ["/assets/images/dashboard/gridicons_cross-circle.svg", "/assets/images/dashboard/lets-icons_print-light.svg"],
+      outlook: ["/assets/images/dashboard/gridicons_cross-circle.svg", "/assets/images/dashboard/material-symbols-light_mail-outline-sharp.svg"],
       action: "Bearbeiten",
       notes: "Einfügen und Regenerieren"
     },
@@ -33,10 +33,10 @@ const Deadline2 = () => {
       autoEnd: "Nov-03-2025",
       finalEnd: "Nov-06-2025",
       gap: "+3",
-      print: ["/assets/images/dashboard/gridicons_cross-circle.svg", "/assets/images/dashboard/lets-icons_print-light.svg"],
+      print: ["/assets/images/dashboard/teenyicons_tick-circle-solid.svg", "/assets/images/dashboard/lets-icons_print-light.svg"],
       status: "safe",
       ra: "Mr. H",
-      outlook: ["/assets/images/dashboard/gridicons_cross-circle.svg", "/assets/images/dashboard/lets-icons_print-light.svg"],
+      outlook: ["/assets/images/dashboard/teenyicons_tick-circle-solid.svg", "/assets/images/dashboard/material-symbols-light_mail-outline-sharp.svg"],
       action: "Sicht",
       notes: ""
     },
@@ -47,10 +47,10 @@ const Deadline2 = () => {
       autoEnd: "Oct-16-2025",
       finalEnd: "Oct-16-2025",
       gap: "+0",
-      print: ["/assets/images/dashboard/gridicons_cross-circle.svg", "/assets/images/dashboard/lets-icons_print-light.svg"],
+      print: ["/assets/images/dashboard/teenyicons_tick-circle-solid.svg", "/assets/images/dashboard/lets-icons_print-light.svg"],
       status: "safe",
       ra: "Mr. N",
-      outlook: ["/assets/images/dashboard/gridicons_cross-circle.svg", "/assets/images/dashboard/lets-icons_print-light.svg"],
+      outlook: ["/assets/images/dashboard/teenyicons_tick-circle-solid.svg", "/assets/images/dashboard/material-symbols-light_mail-outline-sharp.svg"],
       action: "Sicht",
       notes: ""
     },
@@ -64,7 +64,7 @@ const Deadline2 = () => {
       print: ["/assets/images/dashboard/gridicons_cross-circle.svg", "/assets/images/dashboard/lets-icons_print-light.svg"],
       status: "warning",
       ra: "Mr. H",
-      outlook: ["/assets/images/dashboard/gridicons_cross-circle.svg", "/assets/images/dashboard/lets-icons_print-light.svg"],
+      outlook: ["/assets/images/dashboard/gridicons_cross-circle.svg", "/assets/images/dashboard/material-symbols-light_mail-outline-sharp.svg"],
       action: "Überprüfen",
       notes: "Einfügen und Regenerieren"
     },
@@ -78,7 +78,7 @@ const Deadline2 = () => {
       print: ["/assets/images/dashboard/gridicons_cross-circle.svg", "/assets/images/dashboard/lets-icons_print-light.svg"],
       status: "warning",
       ra: "Mr. H",
-      outlook: ["/assets/images/dashboard/gridicons_cross-circle.svg", "/assets/images/dashboard/lets-icons_print-light.svg"],
+      outlook: ["/assets/images/dashboard/gridicons_cross-circle.svg", "/assets/images/dashboard/material-symbols-light_mail-outline-sharp.svg"],
       action: "Überprüfen",
       notes: "Einfügen und Regenerieren"
     },
@@ -92,7 +92,7 @@ const Deadline2 = () => {
       print: ["/assets/images/dashboard/gridicons_cross-circle.svg", "/assets/images/dashboard/lets-icons_print-light.svg"],
       status: "warning",
       ra: "Mr. H",
-      outlook: ["/assets/images/dashboard/gridicons_cross-circle.svg", "/assets/images/dashboard/lets-icons_print-light.svg"],
+      outlook: ["/assets/images/dashboard/gridicons_cross-circle.svg", "/assets/images/dashboard/material-symbols-light_mail-outline-sharp.svg"],
       action: "Überprüfen",
       notes: "Einfügen und Regenerieren"
     },
@@ -135,7 +135,7 @@ const Deadline2 = () => {
         </div>
         <div className="flex justify-center items-center gap-2">
           <p className="text-gray-700 text-sm sm:text-base">Emily K.</p>
-          <div className="h-[40px] w-[40px] sm:h-[50px] sm:w-[50px] rounded-full overflow-hidden flex justify-center items-center border-2 border-gray-300">
+          <div className="h-[40px] w-[40px] sm:h-[50px] sm:w-[50px] rounded-full overflow-hidden flex justify-center items-center">
             <img 
               src="/assets/images/dashboard/default_profile.jpg" 
               className="h-full w-full object-cover" 
@@ -147,7 +147,7 @@ const Deadline2 = () => {
 
       {/* Title Section */}
       <div className="px-4 sm:px-6 py-6 sm:py-8 text-center">
-        <h1 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-[600] text-[#1A1A1A] tracking-wide">GESETZLICHES FRISTENMANAGEMENTSYSTEM</h1>
+        <h1 className="text-xl sm:text-2xl md:text-3xl lg:text-3xl font-[600] text-[#1A1A1A] tracking-wide">GESETZLICHES FRISTENMANAGEMENTSYSTEM</h1>
         <p className="text-sm sm:text-base md:text-lg lg:text-xl text-[#1A1A1A] mt-2">ÖSTERREICHISCHE ANWALTSKANZLEI</p>
       </div>
 
@@ -160,25 +160,25 @@ const Deadline2 = () => {
             <div className="flex flex-col sm:flex-row gap-2 sm:gap-4 items-center mb-2">
               <div className="flex flex-wrap gap-2 w-full sm:w-auto">
                 <div className="relative flex-1 sm:flex-none">
-                  <button className="flex items-center justify-between w-full sm:w-auto gap-2 px-3 py-2 border-2 border-gray-300 hover:bg-gray-100 rounded text-sm text-gray-700 font-medium transition-colors">
+                  <button className="flex items-center justify-between w-full sm:w-auto gap-2 px-3 py-2 border border-gray-400 hover:bg-gray-100 rounded text-sm text-gray-700 font-medium transition-colors">
                     {selectedSource}
                     <FiChevronDown size={16} />
                   </button>
                 </div>
                 <div className="relative flex-1 sm:flex-none">
-                  <button className="flex items-center justify-between w-full sm:w-auto gap-2 px-3 py-2 border-2 border-gray-300 hover:bg-gray-100 rounded text-sm text-gray-700 font-medium transition-colors">
+                  <button className="flex items-center justify-between w-full sm:w-auto gap-2 px-3 py-2 border border-gray-400 hover:bg-gray-100 rounded text-sm text-gray-700 font-medium transition-colors">
                     {selectedArea}
                     <FiChevronDown size={16} />
                   </button>
                 </div>
                 <div className="relative flex-1 sm:flex-none">
-                  <button className="flex items-center justify-between w-full sm:w-auto gap-2 px-3 py-2 border-2 border-gray-300 hover:bg-gray-100 rounded text-sm text-gray-700 font-medium transition-colors">
+                  <button className="flex items-center justify-between w-full sm:w-auto gap-2 px-3 py-2 border border-gray-400 hover:bg-gray-100 rounded text-sm text-gray-700 font-medium transition-colors">
                     {selectedLawyer}
                     <FiChevronDown size={16} />
                   </button>
                 </div>
               </div>
-              <div className="flex-1 w-full sm:w-auto flex items-center gap-2 border-2 border-gray-300 rounded-full px-3 py-1">
+              <div className="flex-1 w-full sm:w-auto flex items-center gap-2 border border-gray-400 rounded-full px-3 py-1">
                 <FiSearch size={16} className="text-gray-500" />
                 <input
                   type="text"
@@ -195,73 +195,77 @@ const Deadline2 = () => {
           </div>
 
           {/* Table */}
-          <div className="rounded-lg border-2 border-gray-300 overflow-hidden">
+          <div className="rounded-lg border-b border-gray-400 overflow-hidden">
             <div className="overflow-x-auto">
-              <table className="w-full text-xs sm:text-sm">
+              <table className="w-full text-[10px] sm:text-[11px]">
                 <thead className="">
                   <tr className="border-b border-gray-300">
-                    <th className="px-2 sm:px-4 py-2 sm:py-1.5 text-left font-semibold text-gray-700">Case</th>
-                    <th className="px-2 sm:px-4 py-2 sm:py-1.5 text-left font-semibold text-gray-700">Law</th>
-                    <th className="px-2 sm:px-4 py-2 sm:py-1.5 text-left font-semibold text-gray-700">Start date</th>
-                    <th className="px-2 sm:px-4 py-2 sm:py-1.5 text-left font-semibold text-gray-700">Auto End</th>
-                    <th className="px-2 sm:px-4 py-2 sm:py-1.5 text-left font-semibold text-gray-700">Final End</th>
-                    <th className="px-2 sm:px-4 py-2 sm:py-1.5 text-left font-semibold text-gray-700">GAP</th>
-                    <th className="px-2 sm:px-4 py-2 sm:py-1.5 text-left font-semibold text-gray-700">Print</th>
-                    <th className="px-2 sm:px-4 py-2 sm:py-1.5 text-left font-semibold text-gray-700">Status</th>
-                    <th className="px-2 sm:px-4 py-2 sm:py-1.5 text-left font-semibold text-gray-700">RA</th>
-                    <th className="px-2 sm:px-4 py-2 sm:py-1.5 text-left font-semibold text-gray-700">Outlook</th>
-                    <th className="px-2 sm:px-4 py-2 sm:py-1.5 text-left font-semibold text-gray-700">Aktion</th>
+                    <th className="px-1 sm:px-2 py-1.5 text-left font-semibold text-gray-700 w-[6%]">Case</th>
+                    <th className="px-1 sm:px-2 py-1.5 text-left font-semibold text-gray-700 w-[12%]">Law</th>
+                    <th className="px-1 sm:px-2 py-1.5 text-left font-semibold text-gray-700 w-[8%]">Start date</th>
+                    <th className="px-1 sm:px-2 py-1.5 text-left font-semibold text-gray-700 w-[8%]">Auto End</th>
+                    <th className="px-1 sm:px-2 py-1.5 text-left font-semibold text-gray-700 w-[8%]">Final End</th>
+                    <th className="px-1 sm:px-2 py-1.5 text-left font-semibold text-gray-700 w-[5%]">GAP</th>
+                    <th className="px-1 sm:px-2 py-1.5 text-left font-semibold text-gray-700 w-[7%]">Print</th>
+                    <th className="px-1 sm:px-2 py-1.5 text-left font-semibold text-gray-700 w-[8%]">Status</th>
+                    <th className="px-1 sm:px-2 py-1.5 text-left font-semibold text-gray-700 w-[6%]">RA</th>
+                    <th className="px-1 sm:px-2 py-1.5 text-left font-semibold text-gray-700 w-[7%]">Outlook</th>
+                    <th className="px-1 sm:px-2 py-1.5 text-left font-semibold text-gray-700 w-[12%]">Aktion</th>
                   </tr>
                 </thead>
                 <tbody>
                   {caseData.map((row, idx) => (
-                    <tr key={idx} className="border-b border-gray-200 hover:bg-gray-50 transition-colors">
-                      <td className="px-2 sm:px-4 py-2 sm:py-3">
-                        <div className="text-xs font-medium text-gray-900">{row.case}</div>
+                    <tr key={idx} className="border-b border-gray-400 hover:bg-gray-50 transition-colors">
+                      <td className="px-1 sm:px-2 py-1.5 w-[6%]">
+                        <div className="font-medium text-gray-900">{row.case}</div>
                       </td>
-                      <td className="px-2 sm:px-4 py-2 sm:py-3 text-[#1A1A1A] truncate max-w-[80px] sm:max-w-none">{row.law}</td>
-                      <td className="px-2 sm:px-4 py-2 sm:py-3 text-[#1A1A1A]">{row.startDate}</td>
-                      <td className="px-2 sm:px-4 py-2 sm:py-3 text-[#1A1A1A]">{row.autoEnd}</td>
-                      <td className="px-2 sm:px-4 py-2 sm:py-3 text-[#1A1A1A]">{row.finalEnd}</td>
-                      <td className="px-2 sm:px-4 py-2 sm:py-3 text-[#1A1A1A]">{row.gap}</td>
-                      <td className="px-2 sm:px-4 py-2 sm:py-3">
+                      <td className="px-1 sm:px-2 py-1.5 text-[#1A1A1A] truncate w-[12%]">{row.law}</td>
+                      <td className="px-1 sm:px-2 py-1.5 text-[#1A1A1A] w-[8%]">{row.startDate}</td>
+                      <td className="px-1 sm:px-2 py-1.5 text-[#1A1A1A] w-[8%]">{row.autoEnd}</td>
+                      <td className="px-1 sm:px-2 py-1.5 text-[#1A1A1A] w-[8%]">{row.finalEnd}</td>
+                      <td className="px-1 sm:px-2 py-1.5 text-[#1A1A1A] w-[5%]">{row.gap}</td>
+                      <td className="px-1 sm:px-2 py-1.5 w-[7%]">
                         <div className="flex gap-1">
                           {row.print.map((item, index) => (
                             <img 
                               key={index} 
                               src={item} 
                               alt="" 
-                              className="w-4 h-4 sm:w-5 sm:h-5 object-contain"
+                              className="w-3 h-3 sm:w-4 sm:h-4 object-contain"
                             />
                           ))}
                         </div>
                       </td>
-                      <td className="px-2 sm:px-4 py-2 sm:py-3">
-                        <div className="flex items-center gap-2">
-                          <MdCircle size={10} sm:size={12} className={getStatusColor(row.status)} />
-                          <span className="text-[#1A1A1A] font-medium text-xs sm:text-sm">{getStatusLabel(row.status)}</span>
+                      <td className="px-1 sm:px-2 py-1.5 w-[8%]">
+                        <div className="flex items-center gap-1">
+                          <MdCircle size={8} className={getStatusColor(row.status)} />
+                          <span className="text-[#1A1A1A] font-medium">{getStatusLabel(row.status)}</span>
                         </div>
                       </td>
-                      <td className="px-2 sm:px-4 py-2 sm:py-3 text-[#1A1A1A]">{row.ra}</td>
-                      <td className="px-2 sm:px-4 py-2 sm:py-3">
+                      <td className="px-1 sm:px-2 py-1.5 text-[#1A1A1A] w-[6%]">{row.ra}</td>
+                      <td className="px-1 sm:px-2 py-1.5 w-[7%]">
                         <div className="flex gap-1">
                           {row.outlook.map((item, index) => (
                             <img 
                               key={index} 
                               src={item} 
                               alt="" 
-                              className="w-4 h-4 sm:w-5 sm:h-5 object-contain"
+                              className="w-3 h-3 sm:w-4 sm:h-4 object-contain"
                             />
                           ))}
                         </div>
                       </td>
-                      <td className="px-2 sm:px-4 py-2 sm:py-3">
-                        {row.notes && (
-                          <div className="text-xs text-gray-500 mb-1">{row.notes}</div>
-                        )}
-                        <button className="text-blue-600 hover:text-blue-800 font-medium text-xs transition-colors">
-                          {row.action}
-                        </button>
+                      <td className="px-1 sm:px-2 py-1.5 w-[12%]">
+                        <div className="flex flex-col lg:flex-row gap-0.5">
+                          <button className="text-[9px] text-gray-600 border border-[#1A1A1A33] hover:bg-gray-200 px-1.5 py-0.5 rounded-full transition-colors whitespace-nowrap">
+                            {row.action}
+                          </button>
+                          {row.notes && (
+                            <button className="text-[9px] text-gray-600 border border-[#1A1A1A33] hover:bg-gray-200 px-1.5 py-0.5 rounded-full transition-colors whitespace-nowrap">
+                              {row.notes}
+                            </button>
+                          )}
+                        </div>
                       </td>
                     </tr>
                   ))}
