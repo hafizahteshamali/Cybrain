@@ -43,18 +43,13 @@ const Communication = () => {
     {
       id: 1,
       email: "deadline@example.com",
+      deadline: "Frist Datum: Oct 20 2025, 20:30",
       sender: "Deadline Management System",
-      subject: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      subject: "Deadline@example...",
       content: `Sehr geehrter Benutzer,
-  
+    
   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-  
-  Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-  
-  Bitte beachten Sie die anstehenden Fristen in der Anlage.
-  
-  Mit freundlichen Grüßen,
-  Ihr Deadline Team`,
+  Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Bitte beachten Sie die anstehenden Fristen in der Anlage. Mit freundlichen Grüßen, Ihr Deadline Team`,
       assignee: "Emily K.",
       category: "Frist",
       status: "Ausstehend",
@@ -62,21 +57,34 @@ const Communication = () => {
       date: "Heute",
       checked: false,
       starred: false,
-      attachments: ["fristen_dokument.pdf", "zeitplan.jpg"],
+      customer: "Emily K.",
+      topic: "Ausziehend",
+      caseNumber: "541255478854",
+      priority: "EMP/F",
+      department: "GREENJÄRGER-REFIZIER",
+      detailedContent: `**Frist**
+  
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.`,
+      actions: [
+        "Vervenim",
+        "Wetertelten en RA", 
+        "Erstellen Sie eine interne Aufgabe"
+      ]
     },
     {
       id: 2,
       email: "review@example.com",
+      deadline: "Frist Datum: Oct 20 2025, 20:30",
       sender: "Review Department",
       subject: "Incididunt ut labore et dolore magna aliqua - Draft Brief Review",
       content: `Hallo Team,
-  
+    
   Incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-  
+    
   Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-  
+    
   Bitte überprüfen Sie den Anhang und geben Sie uns Feedback bis morgen.
-  
+    
   Vielen Dank für Ihre Zusammenarbeit,
   Review Department`,
       assignee: "Emily K.",
@@ -86,21 +94,34 @@ const Communication = () => {
       date: "Heute",
       checked: false,
       starred: false,
-      attachments: ["brief_draft_v2.docx", "review_checklist.pdf"],
+      customer: "Emily K.",
+      topic: "Ausziehend",
+      caseNumber: "541255478855",
+      priority: "EMP/F",
+      department: "GREENJÄRGER-REFIZIER",
+      detailedContent: `**Frist**
+  
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.`,
+      actions: [
+        "Vervenim",
+        "Wetertelten en RA", 
+        "Erstellen Sie eine interne Aufgabe"
+      ]
     },
     {
       id: 3,
       email: "personal@example.com",
+      deadline: "Frist Datum: Oct 20 2025, 20:30",
       sender: "Personal Draft System",
       subject: "Laboris nisi ut aliquip ex ea commodo consequat - Personal Draft",
       content: `Lieber Benutzer,
-  
+    
   Laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-  
+    
   Ihre persönlichen Entwürfe wurden aktualisiert und sind zur Überprüfung bereit. Bitte nehmen Sie sich Zeit, die Änderungen durchzugehen.
-  
+    
   Bei Fragen stehen wir Ihnen gerne zur Verfügung.
-  
+    
   Beste Grüße,
   Personal Draft System`,
       assignee: "Emily K.",
@@ -110,367 +131,546 @@ const Communication = () => {
       date: "Heute",
       checked: false,
       starred: false,
-      attachments: ["personal_draft_v3.docx"],
+      customer: "Emily K.",
+      topic: "Ausziehend",
+      caseNumber: "541255478856",
+      priority: "EMP/F",
+      department: "GREENJÄRGER-REFIZIER",
+      detailedContent: `**Frist**
+  
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.`,
+      actions: [
+        "Vervenim",
+        "Wetertelten en RA", 
+        "Erstellen Sie eine interne Aufgabe"
+      ]
     },
     {
       id: 4,
       email: "deadline@example.com",
+      deadline: "Frist Datum: Oct 20 2025, 20:30",
       sender: "Project Management",
       subject: "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
       content: `Sehr geehrte Team-Mitglieder,
-  
+    
   Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-  
+    
   Wir möchten Sie auf die anstehenden Meilensteine des Projekts hinweisen. Bitte stellen Sie sicher, dass alle Aufgaben termingerecht abgeschlossen werden.
-  
+    
   Bei Verzögerungen kontaktieren Sie bitte umgehend das Projektmanagement.
-  
+    
   Mit freundlichen Grüßen,
   Projektleitung`,
-      assignee: "Im Gange",
+      assignee: "Max M.",
       category: "Aufgabe",
       status: "Ausstehend",
-      time: "Oct 19",
-      date: "19. Oktober",
+      time: "15:45",
+      date: "Heute",
       checked: false,
       starred: false,
-      attachments: ["meilensteine_plan.pdf", "projekt_timeline.xlsx"],
+      customer: "Max M.",
+      topic: "Projektabschluss",
+      caseNumber: "541255478857",
+      priority: "URG/H",
+      department: "PROJEKT-MANAGEMENT",
+      detailedContent: `**Frist**
+  
+  Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.`,
+      actions: [
+        "Vervenim",
+        "Wetertelten en RA", 
+        "Erstellen Sie eine interne Aufgabe"
+      ]
     },
     {
       id: 5,
-      email: "personal@example.com",
-      sender: "Draft Coordination",
-      subject: "Aliquam pulvinar vestibulum blandit. Duis elementum",
-      content: `Guten Tag,
-  
-  Aliquam pulvinar vestibulum blandit. Duis elementum, nisl eget aliquam ultricies, nunc nisl aliquam nisl, eget aliquam nisl nisl eget nisl.
-  
-  Die Überarbeitung der Dokumente schreitet gut voran. Wir haben mehrere Verbesserungsvorschläge erhalten, die nun eingearbeitet werden.
-  
-  Bitte prüfen Sie die aktuelle Version und teilen Sie uns Ihr Feedback mit.
-  
+      email: "support@example.com",
+      deadline: "Frist Datum: Oct 20 2025, 20:30",
+      sender: "Customer Support",
+      subject: "Duis aute irure dolor in reprehenderit in voluptate",
+      content: `Sehr geehrter Kunde,
+    
+  Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+    
+  Wir haben Ihre Anfrage erhalten und werden uns innerhalb von 24 Stunden bei Ihnen melden. Vielen Dank für Ihre Geduld.
+    
   Freundliche Grüße,
-  Draft Coordination Team`,
-      assignee: "Najam R.",
-      category: "Aufgabe",
+  Ihr Support Team`,
+      assignee: "Sarah L.",
+      category: "Support",
       status: "Im Gange",
-      time: "Oct 8",
-      date: "8. Oktober",
+      time: "14:20",
+      date: "Heute",
       checked: false,
       starred: false,
-      attachments: ["draft_version_final.docx", "feedback_sammlung.pdf"],
+      customer: "Sarah L.",
+      topic: "Kundenanfrage",
+      caseNumber: "541255478858",
+      priority: "MED/G",
+      department: "KUNDEN-SUPPORT",
+      detailedContent: `**Frist**
+  
+  Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.`,
+      actions: [
+        "Vervenim",
+        "Wetertelten en RA", 
+        "Erstellen Sie eine interne Aufgabe"
+      ]
     },
     {
       id: 6,
-      email: "deadline@example.com",
-      sender: "Completion Department",
-      subject: "In a lorem ipsum, integer sollicitudin",
+      email: "billing@example.com",
+      deadline: "Frist Datum: Oct 20 2025, 20:30",
+      sender: "Accounting Department",
+      subject: "Excepteur sint occaecat cupidatat non proident",
       content: `Sehr geehrte Damen und Herren,
-  
-  In a lorem ipsum, integer sollicitudin, lorem eget aliquet ultricies, nunc nisl aliquam nisl, eget aliquam nisl nisl eget nisl.
-  
-  Wir freuen uns, Ihnen mitteilen zu können, dass die Aufgabe erfolgreich abgeschlossen wurde. Alle Meilensteine wurden erreicht und die Qualitätskontrolle ist positiv verlaufen.
-  
-  Vielen Dank für Ihre hervorragende Arbeit.
-  
-  Beste Grüße,
-  Completion Department`,
-      assignee: "Emily K.",
-      category: "Aufgabe",
-      status: "Vollendet",
-      time: "Oct 1",
-      date: "1. Oktober",
+    
+  Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    
+  Ihre Rechnung Nr. 2025-001 steht zur Zahlung bereit. Bitte überweisen Sie den Betrag innerhalb der nächsten 14 Tage.
+    
+  Mit freundlichen Grüßen,
+  Buchhaltung`,
+      assignee: "Thomas R.",
+      category: "Rechnung",
+      status: "Ausstehend",
+      time: "13:10",
+      date: "Heute",
       checked: false,
       starred: false,
-      attachments: ["abschlussbericht.pdf", "qualitätszertifikat.pdf"],
+      customer: "Thomas R.",
+      topic: "Rechnungsstellung",
+      caseNumber: "541255478859",
+      priority: "EMP/F",
+      department: "BUCHHALTUNG",
+      detailedContent: `**Frist**
+  
+  Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.`,
+      actions: [
+        "Vervenim",
+        "Wetertelten en RA", 
+        "Erstellen Sie eine interne Aufgabe"
+      ]
     },
     {
       id: 7,
-      email: "deadline@example.com",
-      sender: "Inventory Management",
-      subject: "Dorem sed ante et magna suscipit nulla facilis",
-      content: `Hallo Team,
-  
-  Dorem sed ante et magna suscipit nulla facilis. Donec sed odio dui. Donec ullamcorper nulla non metus auctor fringilla.
-  
-  Der Gegenstand wurde erfolgreich inventarisiert und ist nun im System erfasst. Alle relevanten Daten wurden überprüft und freigegeben.
-  
-  Die Dokumentation finden Sie im Anhang.
-  
-  Mit freundlichen Grüßen,
-  Inventory Management`,
-      assignee: "Emily K.",
-      category: "Gegenstand",
+      email: "hr@example.com",
+      deadline: "Frist Datum: Oct 20 2025, 20:30",
+      sender: "Human Resources",
+      subject: "Sunt in culpa qui officia deserunt mollit anim",
+      content: `Liebes Team,
+    
+  Sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    
+  Die nächste Personalversammlung findet am 25.10.2025 statt. Bitte tragen Sie sich in die Teilnehmerliste ein.
+    
+  Beste Grüße,
+  Personalabteilung`,
+      assignee: "Lisa B.",
+      category: "Personal",
       status: "Vollendet",
-      time: "Sep 25",
-      date: "25. September",
+      time: "11:45",
+      date: "Heute",
       checked: false,
       starred: false,
-      attachments: ["inventarliste.pdf", "gegenstands_dokumentation.docx"],
+      customer: "Lisa B.",
+      topic: "Personalversammlung",
+      caseNumber: "541255478860",
+      priority: "MED/G",
+      department: "PERSONALABTEILUNG",
+      detailedContent: `**Frist**
+  
+  Sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit.`,
+      actions: [
+        "Vervenim",
+        "Wetertelten en RA", 
+        "Erstellen Sie eine interne Aufgabe"
+      ]
     },
     {
       id: 8,
-      email: "review@example.com",
-      sender: "Quality Assurance",
-      subject: "Vestibulum eu quam nec neque pellentesque",
+      email: "legal@example.com",
+      deadline: "Frist Datum: Oct 20 2025, 20:30",
+      sender: "Legal Department",
+      subject: "Consectetur adipiscing elit sed do eiusmod",
       content: `Sehr geehrte Kollegen,
-  
-  Vestibulum eu quam nec neque pellentesque. Donec sed odio dui. Donec ullamcorper nulla non metus auctor fringilla.
-  
-  Die Qualitätsprüfung des Gegenstands ist abgeschlossen. Alle Tests wurden erfolgreich durchgeführt und die Ergebnisse entsprechen den Anforderungen.
-  
-  Das Zertifikat ist beigefügt.
-  
-  Freundliche Grüße,
-  Quality Assurance Team`,
-      assignee: "Emily K.",
-      category: "Gegenstand",
-      status: "Vollendet",
-      time: "Sep 18",
-      date: "18. September",
+    
+  Consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    
+  Die Vertragsunterlagen wurden überprüft und sind zur Unterschrift bereit. Bitte lassen Sie uns die unterzeichneten Dokumente zukommen.
+    
+  Mit freundlichen Grüßen,
+  Rechtsabteilung`,
+      assignee: "Michael K.",
+      category: "Rechtlich",
+      status: "Im Gange",
+      time: "10:30",
+      date: "Heute",
       checked: false,
       starred: false,
-      attachments: ["qualitätsprüfung.pdf", "zertifikat_qa.docx"],
+      customer: "Michael K.",
+      topic: "Vertragsprüfung",
+      caseNumber: "541255478861",
+      priority: "URG/H",
+      department: "RECHTSABTEILUNG",
+      detailedContent: `**Frist**
+  
+  Consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.`,
+      actions: [
+        "Vervenim",
+        "Wetertelten en RA", 
+        "Erstellen Sie eine interne Aufgabe"
+      ]
     },
     {
       id: 9,
-      email: "deadline@example.com",
-      sender: "Talent Management",
-      subject: "Sit fac fac Talent 2020 in Facilisis",
-      content: `Liebes Team,
-  
-  Sit fac fac Talent 2020 in Facilisis. Donec sed odio dui. Donec ullamcorper nulla non metus auctor fringilla.
-  
-  Das Talent Management Programm 2020 wurde erfolgreich abgeschlossen. Wir bedanken uns bei allen Beteiligten für das Engagement und die erfolgreiche Zusammenarbeit.
-  
-  Der Abschlussbericht steht zur Verfügung.
-  
-  Beste Grüße,
-  Talent Management`,
-      assignee: "Emily K.",
-      category: "Aufgabe",
+      email: "marketing@example.com",
+      deadline: "Frist Datum: Oct 20 2025, 20:30",
+      sender: "Marketing Team",
+      subject: "Ut enim ad minim veniam quis nostrud",
+      content: `Hallo zusammen,
+    
+  Ut enim ad minim veniam quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+    
+  Die Marketingkampagne für Q4 2025 ist gestartet. Bitte teilen Sie uns mit, wenn Sie Materialien benötigen.
+    
+  Viele Grüße,
+  Marketing Team`,
+      assignee: "Anna S.",
+      category: "Marketing",
       status: "Vollendet",
-      time: "Sep 11",
-      date: "11. September",
+      time: "09:15",
+      date: "Heute",
       checked: false,
       starred: false,
-      attachments: ["talent_abschlussbericht.pdf", "feedback_umfrage.pdf"],
+      customer: "Anna S.",
+      topic: "Marketing Kampagne",
+      caseNumber: "541255478862",
+      priority: "MED/G",
+      department: "MARKETING",
+      detailedContent: `**Frist**
+  
+  Ut enim ad minim veniam quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.`,
+      actions: [
+        "Vervenim",
+        "Wetertelten en RA", 
+        "Erstellen Sie eine interne Aufgabe"
+      ]
     },
     {
       id: 10,
-      email: "deadline@example.com",
-      sender: "Legal Department",
-      subject: "Aliquam pulvinar vestibulum blandit. Duis",
-      content: `Sehr geehrte Damen und Herren,
-  
-  Aliquam pulvinar vestibulum blandit. Duis elementum, nisl eget aliquam ultricies, nunc nisl aliquam nisl, eget aliquam nisl nisl eget nisl.
-  
-  Wir möchten Sie auf die bevorstehenden Fristen im rechtlichen Bereich hinweisen. Bitte beachten Sie die Termine und reichen Sie die erforderlichen Dokumente rechtzeitig ein.
-  
-  Bei Fragen stehen wir Ihnen gerne zur Verfügung.
-  
+      email: "it@example.com",
+      deadline: "Frist Datum: Oct 20 2025, 20:30",
+      sender: "IT Support",
+      subject: "Exercitation ullamco laboris nisi ut aliquip",
+      content: `Sehr geehrte Nutzer,
+    
+  Exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit.
+    
+  Geplante Wartungsarbeiten finden am Wochenende statt. Das System wird vorübergehend nicht verfügbar sein.
+    
   Mit freundlichen Grüßen,
-  Rechtsabteilung`,
-      assignee: "Emily K.",
-      category: "Frist",
-      status: "Vollendet",
-      time: "Sep 10",
-      date: "10. September",
+  IT Abteilung`,
+      assignee: "David W.",
+      category: "IT",
+      status: "Ausstehend",
+      time: "08:45",
+      date: "Heute",
       checked: false,
       starred: false,
-      attachments: ["rechtliche_fristen.pdf", "dokumentvorlagen.zip"],
+      customer: "David W.",
+      topic: "Systemwartung",
+      caseNumber: "541255478863",
+      priority: "EMP/F",
+      department: "IT-ABTEILUNG",
+      detailedContent: `**Frist**
+  
+  Exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit.`,
+      actions: [
+        "Vervenim",
+        "Wetertelten en RA", 
+        "Erstellen Sie eine interne Aufgabe"
+      ]
     },
     {
       id: 11,
-      email: "deadline@example.com",
-      sender: "Event Management",
-      subject: "Hom nay, SV FFTU Hoa Lac Dat dia la i",
-      content: `Guten Tag zusammen,
-  
-  Hom nay, SV FFTU Hoa Lac Dat dia la i. Donec sed odio dui. Donec ullamcorper nulla non metus auctor fringilla.
-  
-  Die Veranstaltungsplanung wurde erfolgreich abgeschlossen. Alle Vorbereitungen sind getroffen und die Teilnehmerbestätigungen liegen vor.
-  
-  Wir freuen uns auf eine erfolgreiche Veranstaltung.
-  
-  Freundliche Grüße,
-  Event Management Team`,
-      assignee: "Emily K.",
-      category: "Aufgabe",
+      email: "sales@example.com",
+      deadline: "Frist Datum: Oct 19 2025, 20:30",
+      sender: "Sales Department",
+      subject: "Duis aute irure dolor in reprehenderit",
+      content: `Liebe Vertriebskollegen,
+    
+  Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+    
+  Das Sales Meeting wurde auf nächste Woche verschoben. Neue Termine folgen in Kürze.
+    
+  Beste Grüße,
+  Vertriebsleitung`,
+      assignee: "Robert P.",
+      category: "Vertrieb",
       status: "Vollendet",
-      time: "Aug 29",
-      date: "29. August",
+      time: "17:20",
+      date: "Gestern",
       checked: false,
       starred: false,
-      attachments: ["veranstaltungsplan.pdf", "teilnehmerliste.xlsx"],
+      customer: "Robert P.",
+      topic: "Sales Meeting",
+      caseNumber: "541255478864",
+      priority: "MED/G",
+      department: "VERTRIEB",
+      detailedContent: `**Frist**
+  
+  Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.`,
+      actions: [
+        "Vervenim",
+        "Wetertelten en RA", 
+        "Erstellen Sie eine interne Aufgabe"
+      ]
     },
     {
       id: 12,
-      email: "personal@example.com",
-      sender: "Draft System Admin",
-      subject: "In a lorem ipsum, integer sollicitudin",
-      content: `Hallo Benutzer,
-  
-  In a lorem ipsum, integer sollicitudin, lorem eget aliquet ultricies, nunc nisl aliquam nisl, eget aliquam nisl nisl eget nisl.
-  
-  Ihr persönlicher Entwurf für den Gegenstand wurde finalisiert und archiviert. Sie können jederzeit auf die Daten zugreifen.
-  
-  Bei Bedarf an Anpassungen kontaktieren Sie uns bitte.
-  
-  Beste Grüße,
-  System Administration`,
-      assignee: "Emily K.",
-      category: "Gegenstand",
+      email: "quality@example.com",
+      deadline: "Frist Datum: Oct 19 2025, 20:30",
+      sender: "Quality Assurance",
+      subject: "Velit esse cillum dolore eu fugiat",
+      content: `Sehr geehrte Mitarbeiter,
+    
+  Velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.
+    
+  Das Qualitätsaudit wurde erfolgreich abgeschlossen. Vielen Dank für die gute Vorbereitung.
+    
+  Mit freundlichen Grüßen,
+  Qualitätssicherung`,
+      assignee: "Julia M.",
+      category: "Qualität",
       status: "Vollendet",
-      time: "Aug 25",
-      date: "25. August",
+      time: "15:40",
+      date: "Gestern",
       checked: false,
       starred: false,
-      attachments: ["entwurf_archiv.pdf", "zugangsdaten.txt"],
+      customer: "Julia M.",
+      topic: "Qualitätsaudit",
+      caseNumber: "541255478865",
+      priority: "EMP/F",
+      department: "QUALITÄTSSICHERUNG",
+      detailedContent: `**Frist**
+  
+  Velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.`,
+      actions: [
+        "Vervenim",
+        "Wetertelten en RA", 
+        "Erstellen Sie eine interne Aufgabe"
+      ]
     },
     {
       id: 13,
-      email: "review@example.com",
-      sender: "Compliance Department",
-      subject: "Vestibulum eu quam nec neque pellentesque",
-      content: `Sehr geehrte Team-Mitglieder,
-  
-  Vestibulum eu quam nec neque pellentesque. Donec sed odio dui. Donec ullamcorper nulla non metus auctor fringilla.
-  
-  Die Überprüfung der Compliance-Fristen ist abgeschlossen. Alle Anforderungen wurden erfüllt und die Dokumentation ist vollständig.
-  
-  Die Bestätigung finden Sie im Anhang.
-  
-  Mit freundlichen Grüßen,
-  Compliance Abteilung`,
-      assignee: "Emily K.",
-      category: "Frist",
-      status: "Vollendet",
-      time: "Aug 16",
-      date: "16. August",
+      email: "training@example.com",
+      deadline: "Frist Datum: Oct 19 2025, 20:30",
+      sender: "Training Center",
+      subject: "Nulla pariatur excepteur sint occaecat",
+      content: `Liebe Teilnehmer,
+    
+  Nulla pariatur excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt.
+    
+  Das Training "Projektmanagement" startet nächsten Montag. Bitte bringen Sie Ihre Unterlagen mit.
+    
+  Freundliche Grüße,
+  Training Center`,
+      assignee: "Markus T.",
+      category: "Training",
+      status: "Im Gange",
+      time: "14:15",
+      date: "Gestern",
       checked: false,
       starred: false,
-      attachments: ["compliance_bericht.pdf", "fristen_nachweis.docx"],
+      customer: "Markus T.",
+      topic: "Projektmanagement Training",
+      caseNumber: "541255478866",
+      priority: "MED/G",
+      department: "TRAINING-CENTER",
+      detailedContent: `**Frist**
+  
+  Nulla pariatur excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt.`,
+      actions: [
+        "Vervenim",
+        "Wetertelten en RA", 
+        "Erstellen Sie eine interne Aufgabe"
+      ]
     },
     {
       id: 14,
-      email: "deadline@example.com",
-      sender: "Project Office",
-      subject: "Hom nay, SV FFTU Hoa Lac Dat dia la i",
-      content: `Liebes Projektteam,
-  
-  Hom nay, SV FFTU Hoa Lac Dat dia la i. Donec sed odio dui. Donec ullamcorper nulla non metus auctor fringilla.
-  
-  Die Projektfristen wurden alle eingehalten und das Projekt erfolgreich abgeschlossen. Wir bedanken uns für die gute Zusammenarbeit und die termingerechte Umsetzung.
-  
-  Der Projektabschlussbericht ist verfügbar.
-  
-  Beste Grüße,
-  Projektbüro`,
-      assignee: "Emily K.",
-      category: "Frist",
-      status: "Vollendet",
-      time: "Aug 5",
-      date: "5. August",
+      email: "research@example.com",
+      deadline: "Frist Datum: Oct 19 2025, 20:30",
+      sender: "Research & Development",
+      subject: "Cupidatat non proident sunt in culpa",
+      content: `Sehr geehrtes Forschungsteam,
+    
+  Cupidatat non proident sunt in culpa qui officia deserunt mollit anim id est laborum.
+    
+  Die Forschungsdaten für Projekt Alpha sind verfügbar. Bitte beginnen Sie mit der Analyse.
+    
+  Mit freundlichen Grüßen,
+  F&E Abteilung`,
+      assignee: "Dr. Schmidt",
+      category: "Forschung",
+      status: "Ausstehend",
+      time: "12:30",
+      date: "Gestern",
       checked: false,
       starred: false,
-      attachments: ["projekt_abschluss.pdf", "leistungsnachweis.docx"],
+      customer: "Dr. Schmidt",
+      topic: "Projekt Alpha",
+      caseNumber: "541255478867",
+      priority: "URG/H",
+      department: "FORSCHUNG-ENTWICKLUNG",
+      detailedContent: `**Frist**
+  
+  Cupidatat non proident sunt in culpa qui officia deserunt mollit anim id est laborum.`,
+      actions: [
+        "Vervenim",
+        "Wetertelten en RA", 
+        "Erstellen Sie eine interne Aufgabe"
+      ]
     },
     {
       id: 15,
-      email: "deadline@example.com",
-      sender: "Technical Department",
-      subject: "Lke mdi lay vit up 3 nh hoa de dic",
-      content: `Guten Tag,
-  
-  Lke mdi lay vit up 3 nh hoa de dic. Donec sed odio dui. Donec ullamcorper nulla non metus auctor fringilla.
-  
-  Die technische Dokumentation für den Gegenstand ist vollständig und wurde freigegeben. Alle Spezifikationen sind erfüllt und die Tests waren erfolgreich.
-  
-  Die Dokumente stehen zur Verfügung.
-  
-  Mit freundlichen Grüßen,
-  Technische Abteilung`,
-      assignee: "Emily K.",
-      category: "Gegenstand",
-      status: "Vollendet",
-      time: "Jul 31",
-      date: "31. Juli",
+      email: "logistics@example.com",
+      deadline: "Frist Datum: Oct 18 2025, 20:30",
+      sender: "Logistics Department",
+      subject: "Officia deserunt mollit anim id est",
+      content: `Hallo Logistik-Team,
+    
+  Officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    
+  Die Lieferung für Kunde 1234 ist versandbereit. Bitte bestätigen Sie den Versandtermin.
+    
+  Viele Grüße,
+  Logistik`,
+      assignee: "Frank L.",
+      category: "Logistik",
+      status: "Im Gange",
+      time: "16:55",
+      date: "Vorgestern",
       checked: false,
       starred: false,
-      attachments: ["technische_dokumentation.pdf", "tests_protokoll.docx"],
+      customer: "Frank L.",
+      topic: "Lieferung Kunde 1234",
+      caseNumber: "541255478868",
+      priority: "EMP/F",
+      department: "LOGISTIK",
+      detailedContent: `**Frist**
+  
+  Officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit.`,
+      actions: [
+        "Vervenim",
+        "Wetertelten en RA", 
+        "Erstellen Sie eine interne Aufgabe"
+      ]
     },
     {
       id: 16,
-      email: "review@example.com",
-      sender: "Business Development",
-      subject: "FFT Koa Biz Talent 2020 In Fac Invel",
-      content: `Sehr geehrte Damen und Herren,
-  
-  FFT Koa Biz Talent 2020 In Fac Invel. Donec sed odio dui. Donec ullamcorper nulla non metus auctor fringilla.
-  
-  Das Business Talent Programm 2020 wurde erfolgreich abgeschlossen. Die Teilnehmer haben hervorragende Ergebnisse erzielt und das Programm wurde sehr positiv evaluiert.
-  
-  Wir freuen uns auf die weitere Zusammenarbeit.
-  
-  Freundliche Grüße,
-  Business Development`,
-      assignee: "Emily K.",
-      category: "Aufgabe",
-      status: "Vollendet",
-      time: "Jun 26",
-      date: "26. Juni",
+      email: "compliance@example.com",
+      deadline: "Frist Datum: Oct 18 2025, 20:30",
+      sender: "Compliance Office",
+      subject: "Laborum lorem ipsum dolor sit amet",
+      content: `Sehr geehrte Mitarbeiter,
+    
+  Laborum lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.
+    
+  Das jährliche Compliance-Training muss bis Ende des Monats absolviert werden. Bitte beachten Sie die Frist.
+    
+  Mit freundlichen Grüßen,
+  Compliance Office`,
+      assignee: "Sabine H.",
+      category: "Compliance",
+      status: "Ausstehend",
+      time: "14:20",
+      date: "Vorgestern",
       checked: false,
       starred: false,
-      attachments: ["talent_programm_abschluss.pdf", "evaluierung_ergebnisse.xlsx"],
+      customer: "Sabine H.",
+      topic: "Compliance Training",
+      caseNumber: "541255478869",
+      priority: "URG/H",
+      department: "COMPLIANCE-OFFICE",
+      detailedContent: `**Frist**
+  
+  Laborum lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.`,
+      actions: [
+        "Vervenim",
+        "Wetertelten en RA", 
+        "Erstellen Sie eine interne Aufgabe"
+      ]
     },
     {
       id: 17,
-      email: "deadline@example.com",
-      sender: "Legal Compliance",
-      subject: "Hom nay, SV FFTU Hoa Lac Dat dia la i",
-      content: `Guten Tag,
-  
-  Hom nay, SV FFTU Hoa Lac Dat dia la i. Donec sed odio dui. Donec ullamcorper nulla non metus auctor fringilla.
-  
-  Die gesetzlichen Fristen für dieses Quartal wurden alle eingehalten. Die Dokumentation ist vollständig und wurde an die zuständigen Stellen übermittelt.
-  
-  Vielen Dank für Ihre Unterstützung.
-  
-  Mit freundlichen Grüßen,
-  Legal Compliance Team`,
-      assignee: "Emily K.",
-      category: "Frist",
+      email: "facility@example.com",
+      deadline: "Frist Datum: Oct 18 2025, 20:30",
+      sender: "Facility Management",
+      subject: "Consectetur adipiscing elit sed do",
+      content: `Liebe Kollegen,
+    
+  Consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    
+  Die Gebäudereinigung findet diese Woche am Freitag statt. Bitte räumen Sie Ihre Arbeitsplätze.
+    
+  Freundliche Grüße,
+  Facility Management`,
+      assignee: "Peter Z.",
+      category: "Facility",
       status: "Vollendet",
-      time: "Jun 20",
-      date: "20. Juni",
+      time: "11:45",
+      date: "Vorgestern",
       checked: false,
       starred: false,
-      attachments: ["quartals_abschluss.pdf", "fristen_nachweis.docx"],
+      customer: "Peter Z.",
+      topic: "Gebäudereinigung",
+      caseNumber: "541255478870",
+      priority: "MED/G",
+      department: "FACILITY-MANAGEMENT",
+      detailedContent: `**Frist**
+  
+  Consectetur adipiscing elit sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.`,
+      actions: [
+        "Vervenim",
+        "Wetertelten en RA", 
+        "Erstellen Sie eine interne Aufgabe"
+      ]
     },
     {
       id: 18,
-      email: "deadline@example.com",
-      sender: "Administration",
-      subject: "Hom nay, SV FFTU Hoa Lac Dat dia la i",
-      content: `Sehr geehrte Damen und Herren,
-  
-  Hom nay, SV FFTU Hoa Lac Dat dia la i. Donec sed odio dui. Donec ullamcorper nulla non metus auctor fringilla.
-  
-  Die administrativen Fristen wurden erfolgreich bearbeitet und abgeschlossen. Alle erforderlichen Schritte sind dokumentiert und archiviert.
-  
-  Die Prozessdokumentation steht zur Einsicht bereit.
-  
-  Freundliche Grüße,
-  Verwaltungsabteilung`,
-      assignee: "Emily K.",
-      category: "Frist",
+      email: "security@example.com",
+      deadline: "Frist Datum: Oct 17 2025, 20:30",
+      sender: "Security Team",
+      subject: "Eiusmod tempor incididunt ut labore",
+      content: `Sehr geehrte Nutzer,
+    
+  Eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+    
+  Das Sicherheitsupdate wurde erfolgreich installiert. Bitte starten Sie Ihre Systeme neu.
+    
+  Mit freundlichen Grüßen,
+  Sicherheitsteam`,
+      assignee: "Alex B.",
+      category: "Sicherheit",
       status: "Vollendet",
-      time: "Jun 20",
-      date: "20. Juni",
+      time: "09:30",
+      date: "3 Tage",
       checked: false,
       starred: false,
-      attachments: ["administrative_abschluss.pdf", "prozess_dokumentation.docx"],
+      customer: "Alex B.",
+      topic: "Sicherheitsupdate",
+      caseNumber: "541255478871",
+      priority: "URG/H",
+      department: "SICHERHEITSTEAM",
+      detailedContent: `**Frist**
+  
+  Eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.`,
+      actions: [
+        "Vervenim",
+        "Wetertelten en RA", 
+        "Erstellen Sie eine interne Aufgabe"
+      ]
     }
   ]);
 
@@ -558,7 +758,7 @@ const Communication = () => {
 
   // Mobile message item component
   const MobileMessageItem = ({ msg }) => (
-    <div 
+    <div
       className="bg-gray-700 rounded-lg p-3 mb-2 cursor-pointer hover:bg-gray-600 transition-colors"
       onClick={() => handleMessageClick(msg)}
     >
@@ -617,118 +817,186 @@ const Communication = () => {
     </div>
   );
 
-  // Message Detail View Component - Responsive
+  // Message Detail View Component - Dark theme matching the image
   const MessageDetailView = () => (
-    <div className="flex-1 flex flex-col bg-[#2D3748] rounded-lg overflow-hidden">
-      {/* Message Header - Responsive */}
-      <div className="bg-[#444B58] p-3 sm:p-4 border-b border-gray-600">
-        <div className="flex items-center justify-between mb-3 sm:mb-4">
+    <div className="flex-1 flex flex-col bg-[#444B58] rounded-lg overflow-hidden">
+      {/* Header with Back Button and Actions - Dark theme */}
+      <div className="flex items-center justify-between p-4 border-b border-gray-700 bg-[#444B58]">
+        <div className="flex items-center gap-4">
           <button
             onClick={handleBackToList}
-            className="flex items-center gap-2 text-white hover:text-gray-300 transition-colors text-sm sm:text-base"
+            className="flex items-center gap-2 text-gray-300 hover:text-white transition-colors"
           >
             <FaArrowLeftLong size={16} />
-            <span className="hidden xs:inline">Zurück</span>
+            <span>Zurück</span>
           </button>
-          <div className="flex items-center gap-1 sm:gap-2">
-            <button className="p-1 sm:p-2 text-gray-400 hover:text-white transition-colors">
-              <FiTrash2 size={16} className="sm:w-4 sm:h-4" />
+          <div className="h-6 w-px bg-gray-600"></div>
+          <div className="flex items-center gap-2">
+            <button className="p-2 text-gray-300 hover:text-white transition-colors">
+              <FiTrash2 size={16} />
             </button>
-            <button 
-              className="p-1 sm:p-2 text-gray-400 hover:text-white transition-colors"
+            <button
+              className="p-2 text-gray-300 hover:text-white transition-colors"
               onClick={() => selectedMessage && toggleStar(selectedMessage.id)}
             >
               {selectedMessage?.starred ? (
-                <MdStar className="text-yellow-500 sm:w-5 sm:h-5 w-4 h-4" />
+                <MdStar className="text-yellow-500" />
               ) : (
-                <MdStarOutline className="sm:w-5 sm:h-5 w-4 h-4" />
+                <MdStarOutline className="text-gray-300" />
               )}
             </button>
           </div>
         </div>
-
-        <h1 className="text-lg sm:text-xl font-bold text-white mb-2 line-clamp-2">
-          {selectedMessage?.subject}
-        </h1>
         
-        <div className="flex flex-col xs:flex-row xs:items-center justify-between text-xs sm:text-sm text-gray-300 gap-2">
-          <div className="flex flex-col sm:flex-row sm:items-center gap-2 sm:gap-4">
-            <div className="flex items-center gap-2">
-              <FiUser size={14} className="sm:w-4 sm:h-4" />
-              <span className="truncate">{selectedMessage?.sender}</span>
-            </div>
-            <div className="flex items-center gap-2">
-              <FiMail size={14} className="sm:w-4 sm:h-4" />
-              <span className="truncate">{selectedMessage?.email}</span>
-            </div>
-          </div>
-          <div className="flex items-center gap-2">
-            <FiCalendar size={14} className="sm:w-4 sm:h-4" />
-            <span>{selectedMessage?.date} • {selectedMessage?.time}</span>
-          </div>
+        <div className="flex items-center gap-3">
+          <button className="flex items-center gap-2 px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors text-sm">
+            <FiCheckCircle size={16} />
+            <span>Als erledigt markieren</span>
+          </button>
+          <button className="p-2 text-gray-300 hover:text-white transition-colors">
+            <FiMoreHorizontal size={16} />
+          </button>
         </div>
       </div>
 
-      {/* Message Meta Info - Responsive */}
-      <div className="bg-[#3A4556] px-3 sm:px-4 py-2 sm:py-3 border-b border-gray-600">
-        <div className="flex flex-col xs:flex-row xs:items-center gap-2 sm:gap-6 text-xs sm:text-sm text-gray-300">
-          <div className="flex items-center gap-2">
-            <FiTag size={14} className="sm:w-4 sm:h-4" />
-            <span>Kategorie: {selectedMessage?.category}</span>
-          </div>
-          <div className="flex items-center gap-2">
-            <FiUser size={14} className="sm:w-4 sm:h-4" />
-            <span>Zugewiesen: {selectedMessage?.assignee}</span>
-          </div>
-          <span className={`px-2 py-1 rounded text-xs ${getStatusColor(selectedMessage?.status)} self-start xs:self-auto`}>
-            {selectedMessage?.status}
-          </span>
-        </div>
-      </div>
-
-      {/* Message Content - Responsive */}
-      <div className="flex-1 overflow-y-auto p-3 sm:p-4 lg:p-6 bg-[#2D3748]">
-        <div className="max-w-4xl mx-auto">
-          {/* Attachments */}
-          {selectedMessage?.attachments && selectedMessage.attachments.length > 0 && (
-            <div className="mb-4 sm:mb-6 p-3 sm:p-4 bg-[#3A4556] rounded-lg">
-              <h3 className="text-white font-semibold mb-2 sm:mb-3 text-sm sm:text-base">Anhänge</h3>
-              <div className="flex flex-wrap gap-2">
-                {selectedMessage.attachments.map((file, index) => (
-                  <div
-                    key={index}
-                    className="flex items-center gap-2 px-2 sm:px-3 py-1 sm:py-2 bg-[#444B58] rounded text-xs sm:text-sm text-gray-300 hover:bg-[#4A5568] transition-colors cursor-pointer"
-                  >
-                    <FiFileText size={14} className="sm:w-4 sm:h-4" />
-                    <span className="max-w-[120px] xs:max-w-[150px] sm:max-w-none truncate">{file}</span>
-                    <FiDownload size={12} className="text-blue-400 ml-1" />
-                  </div>
-                ))}
+      {/* Main Content Area - Dark theme */}
+      <div className="flex-1 overflow-y-auto p-6 bg-[#444B58]">
+        <div className="max-w-4xl mx-auto rounded-lg">
+          {/* Email Header - Dark theme */}
+          <div className="p-6 border-b border-gray-700">
+            <div className="flex items-start justify-between mb-4">
+              <h1 className="text-2xl font-bold text-white">
+                {selectedMessage?.subject}
+              </h1>
+              <span className="text-sm text-gray-400">{selectedMessage?.time}</span>
+            </div>
+            
+            <div className="space-y-2 text-sm text-gray-300">
+              <div className="flex items-center gap-2">
+                <span className="font-medium text-gray-400">Von:</span>
+                <span>{selectedMessage?.sender} &lt;{selectedMessage?.email}&gt;</span>
+              </div>
+              <div className="flex items-center gap-2">
+                <span className="font-medium text-gray-400">An:</span>
+                <span className="text-white">Sie</span>
+              </div>
+              <div className="flex items-center gap-2">
+                <span className="font-medium text-gray-400">Datum:</span>
+                <span>{selectedMessage?.date}, {selectedMessage?.time}</span>
               </div>
             </div>
-          )}
+          </div>
 
-          {/* Message Body */}
-          <div className="bg-[#3A4556] rounded-lg p-4 sm:p-6">
-            <div className="text-gray-300 whitespace-pre-line leading-relaxed text-sm sm:text-base">
-              {selectedMessage?.content}
+          {/* Case Information Table - Dark theme exactly like the image */}
+          <div className="p-6 border-b border-gray-700">
+            <div className="mb-4">
+              <div className="text-lg font-bold text-red-400 mb-2">
+                {selectedMessage?.deadline}
+              </div>
+            </div>
+            
+            <table className="w-full border-collapse">
+              <tbody>
+                <tr className="border-b border-gray-600">
+                  <td className="py-3 pr-4 font-medium text-gray-300 w-32">Kunde</td>
+                  <td className="py-3 text-white">{selectedMessage?.customer}</td>
+                </tr>
+                <tr className="border-b border-gray-600">
+                  <td className="py-3 pr-4 font-medium text-gray-300">Thema</td>
+                  <td className="py-3 text-white">{selectedMessage?.topic}</td>
+                </tr>
+                <tr>
+                  <td className="py-3 pr-4 font-medium text-gray-300">Fallnummer:</td>
+                  <td className="py-3 font-bold text-white">{selectedMessage?.caseNumber}</td>
+                </tr>
+              </tbody>
+            </table>
+
+            <div className="mt-4 pt-4 border-t border-gray-600">
+              <div className="text-sm font-bold text-gray-300 mb-2">ASTRKURER</div>
+              <div className="flex gap-6 text-sm">
+                <div>
+                  <span className="font-medium text-gray-300">EMP/F</span>
+                </div>
+                <div>
+                  <span className="font-medium text-gray-300">GREENJÄRGER-REFIZIER</span>
+                </div>
+              </div>
             </div>
           </div>
 
-          {/* Action Buttons - Responsive */}
-          <div className="flex flex-col xs:flex-row items-stretch xs:items-center gap-2 sm:gap-4 mt-4 sm:mt-6 pt-4 sm:pt-6 border-t border-gray-600">
-            <button className="flex items-center justify-center gap-2 px-3 sm:px-4 py-2 bg-blue-600 hover:bg-blue-700 text-white rounded-lg transition-colors text-sm sm:text-base flex-1 xs:flex-none">
-              <FiMail size={16} className="sm:w-4 sm:h-4" />
-              <span>Antworten</span>
-            </button>
-            <button className="flex items-center justify-center gap-2 px-3 sm:px-4 py-2 bg-gray-600 hover:bg-gray-700 text-white rounded-lg transition-colors text-sm sm:text-base flex-1 xs:flex-none">
-              <FiChevronRight size={16} className="sm:w-4 sm:h-4" />
-              <span>Weiterleiten</span>
-            </button>
-            <button className="flex items-center justify-center gap-2 px-3 sm:px-4 py-2 bg-green-600 hover:bg-green-700 text-white rounded-lg transition-colors text-sm sm:text-base flex-1 xs:flex-none">
-              <FiCheckCircle size={16} className="sm:w-4 sm:h-4" />
-              <span>Als erledigt markieren</span>
-            </button>
+          {/* Email Content - Dark theme */}
+          <div className="p-6 border-b border-gray-700">
+            <div className="prose max-w-none">
+              <h2 className="text-xl font-bold text-white mb-4">Frist</h2>
+              <div className="text-gray-300 leading-relaxed space-y-4">
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                </p>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          {/* Action Buttons - Dark theme exactly like the image */}
+          <div className="p-6">
+            <div className="flex flex-wrap gap-3">
+              {selectedMessage?.actions?.map((action, index) => (
+                <button
+                  key={index}
+                  className="px-4 py-2 border border-gray-600 text-gray-300 rounded-lg hover:bg-gray-700 hover:text-white transition-colors text-sm font-medium"
+                >
+                  {action}
+                </button>
+              ))}
+            </div>
+          </div>
+        </div>
+
+        {/* Reply Section - Dark theme */}
+        <div className="max-w-4xl mx-auto mt-6">
+          <div className="rounded-lg p-6">
+            <div className="flex items-center gap-4 mb-4">
+              <button className="flex items-center gap-2 px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors text-sm">
+                <FiMail size={16} />
+                <span>Antworten</span>
+              </button>
+              <button className="flex items-center gap-2 px-4 py-2 border border-gray-600 text-gray-300 rounded-lg hover:bg-gray-700 hover:text-white transition-colors text-sm">
+                <FiChevronRight size={16} />
+                <span>Weiterleiten</span>
+              </button>
+            </div>
+            
+            <div className="border border-gray-600 rounded-lg">
+              <div className="border-b border-gray-600 p-4">
+                <div className="flex items-center gap-2 text-sm text-gray-400">
+                  <span>Von: Ihr Name</span>
+                  <span>•</span>
+                  <span>An: {selectedMessage?.sender}</span>
+                </div>
+              </div>
+              <div className="p-4">
+                <textarea 
+                  className="w-full h-32 border border-gray-600 text-white rounded-lg p-3 text-sm focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent"
+                  placeholder="Schreiben Sie Ihre Antwort..."
+                />
+                <div className="flex justify-between items-center mt-4">
+                  <div className="flex items-center gap-2">
+                    <button className="p-2 text-gray-400 hover:text-white transition-colors">
+                      <FiFileText size={16} />
+                    </button>
+                    <button className="p-2 text-gray-400 hover:text-white transition-colors">
+                      <FiUpload size={16} />
+                    </button>
+                  </div>
+                  <button className="px-6 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors text-sm font-medium">
+                    Senden
+                  </button>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -989,8 +1257,8 @@ const Communication = () => {
 const SidebarItem = ({ icon, label, active }) => (
   <button
     className={`w-full flex items-center gap-2 sm:gap-3 px-3 sm:px-4 py-2 rounded transition text-sm sm:text-base ${active
-        ? "bg-[#444B58] font-semibold rounded-r-full text-white"
-        : "text-gray-700 hover:bg-gray-300"
+      ? "bg-[#444B58] font-semibold rounded-r-full text-white"
+      : "text-gray-700 hover:bg-gray-300"
       }`}
   >
     {icon}
