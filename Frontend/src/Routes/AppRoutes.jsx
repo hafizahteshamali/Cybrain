@@ -20,7 +20,7 @@ const AppRoutes = () => {
         {/* Other Routes */}
         <Route path="angelegenheiten" element={<Affairs />} />
         <Route path="unterlagen" element={<Documents />} />
-        <Route path="fristen" element={<Deadlines />} />
+        <Route path="fristen" element={<Deadline2 />} />
         <Route path="kommunikation" element={<Communication />} />
         <Route path="rechtliche-hinweise" element={<Legal_Notice />} />
       </Route>
